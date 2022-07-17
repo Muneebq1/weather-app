@@ -19,7 +19,7 @@ body {
   border-radius: 10px;
   color: white;
   padding: 1em 0;
-  font-size: 24px;
+  font-size: 100%;
   overflow: hidden;
   height: 9%;
   width: 100%;
@@ -54,11 +54,11 @@ form {
 }
 
 img {
-  width: 120px;
+  width: 100%;
 }
 
 .temp_result {
-  font-size: 62px;
+  font-size: 200%;
   margin: 0.5rem 0 0 2rem;
 }
 

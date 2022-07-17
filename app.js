@@ -9,7 +9,7 @@ let myFunction = () => {
   let city = document.querySelector("#city").value;
   axios
     .get(
-      `https://api.weatherapi.com/v1/current.json?key=b52a1217af194e27bfa155504223006&q=${city}`
+      `https://api.weatherapi.com/v1/current.json?key=314ada84e4794ca7b1b100857221707&q=${city}`
     )
     .then(function (response) {
       // handle success
